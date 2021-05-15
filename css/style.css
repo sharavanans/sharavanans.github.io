@@ -226,7 +226,7 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
-.education .box-container{
+.Services .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -235,7 +235,7 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
 }
 
-.education .box-container .box{
+.Services .box-container .box{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -243,7 +243,7 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
+.Services .box-container .box span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -251,19 +251,19 @@ header .navbar ul li a:hover{
     padding:.5rem 2.5rem;
 }
 
-.education .box-container .box h3{
+.Services .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.Services .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.education .box-container .box i{
+.Services .box-container .box i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -276,7 +276,7 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-.portfolio .box-container{
+.Cerifications .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,7 +284,7 @@ header .navbar ul li a:hover{
     padding:2rem 0;
 }
 
-.portfolio .box-container .box{
+.Cerifications .box-container .box{
     height: 20rem;
     width:26rem;
     border-radius: 1rem;
@@ -293,13 +293,13 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
+.Cerifications .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
 }
 
-.portfolio .box-container .box:hover img{
+.Cerifications .box-container .box:hover img{
     transform: scale(1.2);
 }
 
@@ -444,11 +444,11 @@ header .navbar ul li a:hover{
         width: 100%;
     }
  
-    .education .box-container .box{
+    .Services .box-container .box{
         width:100%;
     }
 
-    .portfolio .box-container .box{
+    .Cerifications .box-container .box{
         width:100%;
     }
 
